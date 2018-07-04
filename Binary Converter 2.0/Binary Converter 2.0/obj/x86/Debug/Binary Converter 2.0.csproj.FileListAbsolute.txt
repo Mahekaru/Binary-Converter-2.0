@@ -1,0 +1,13 @@
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\bin\Debug\Binary Converter 2.0.exe.config
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\bin\Debug\Binary Converter 2.0.exe.manifest
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\bin\Debug\Binary Converter 2.0.application
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\bin\Debug\Binary Converter 2.0.exe
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\bin\Debug\Binary Converter 2.0.pdb
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\obj\x86\Debug\Binary Converter 2.0.csprojResolveAssemblyReference.cache
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\obj\x86\Debug\Binary_Converter_2._0.frmBinaryConverter.resources
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\obj\x86\Debug\Binary_Converter_2._0.Properties.Resources.resources
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\obj\x86\Debug\Binary Converter 2.0.csproj.GenerateResource.Cache
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\obj\x86\Debug\Binary Converter 2.0.exe.manifest
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\obj\x86\Debug\Binary Converter 2.0.application
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\obj\x86\Debug\Binary Converter 2.0.exe
+C:\Users\Mahekaru\Documents\Visual Studio 2010\Projects\Binary Converter 2.0\Binary Converter 2.0\obj\x86\Debug\Binary Converter 2.0.pdb

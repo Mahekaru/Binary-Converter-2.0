@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Binary Converter 2.0.exe" version="1.0.0.0" publicKeyToken="7a2d55b6d7391c84" language="en" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Resources\Mart-Glaze-Binary.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Binary Converter 2.0" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Binary Converter 2.0.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Binary Converter 2.0.exe" size="327680">
+      <assemblyIdentity name="Binary Converter 2.0" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>3Pl8Wb4Up7A/AWwEMRwSS6us7Sw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Binary Converter 2.0.exe.config" size="1066">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WabozA/NU5ppEND3+VVrPT66ZwY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Mart-Glaze-Binary.ico" size="204166">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8y5ViKqm0fB34QpzxlCMP8oKl+w=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Mahekaru-PC\Mahekaru" issuerKeyHash="04a352b66c8272a05bc9b1f5cabb8efd09cb6904" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+KU1R4/hykjT5U049GISpSeIcuo=</DigestValue></Reference></SignedInfo><SignatureValue>joJZjppO5bR2ySPHZot26JPl5Ko+MkhgWXS2VlMkTJg/ErNm3k9hWhAjZiIl9dbvtP45FnOrqCPG92bzbkcWxKzUkPXHDu8nfF/2qNysroPqBUH+EpCvooXNTAfM7Dd+B5NxTLHpL4m7u3/Mm7VLRRJ327IprMSIvx3NZ7JLnfM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tIYBChpEKuBxCMPRYsQivMSrQfTO2Bon8YNrHisHI6lPMcEspNxYSww2IX+dzU6qR179JUV5XbOmCLurgyo+YFfTeTXK/c9ehhryBtiK5kiwjyhf/6zoD1RBkpP1cuxSoNiMhM9fGlU1r3tnN6ky/ZRpFpJqr2Av9rtLD2OI/nk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ea728827a51262f4384de5d348cae18f4735a5f8" Description="" Url=""><as:assemblyIdentity name="Binary Converter 2.0.exe" version="1.0.0.0" publicKeyToken="7a2d55b6d7391c84" language="en" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Mahekaru-PC\Mahekaru</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>7+F/VC5KKOLUoMvkH0YEUaXNbps=</DigestValue></Reference></SignedInfo><SignatureValue>nc5d2RYoDZGU5xK4iReC0ZLsHWescZSkg9JNX4PoVD7kfAWrbsJlMFh4XV6rcKGFvenV/OdXAT9EcwTrYth2drRCAAwTILWofcVx3y6PvlZghoEULeRzQqET7UB5RHNU30WwAdx1i9+UYpH/1TG5SLjByzEmIgltrkwMyYscglw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tIYBChpEKuBxCMPRYsQivMSrQfTO2Bon8YNrHisHI6lPMcEspNxYSww2IX+dzU6qR179JUV5XbOmCLurgyo+YFfTeTXK/c9ehhryBtiK5kiwjyhf/6zoD1RBkpP1cuxSoNiMhM9fGlU1r3tnN6ky/ZRpFpJqr2Av9rtLD2OI/nk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQKc72czthfbxGthicDa9ihTANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigATQBhAGgAZQBrAGEAcgB1AC0AUABDAFwATQBhAGgAZQBrAGEAcgB1MB4XDTE1MDMyNTE2NDIxM1oXDTE2MDMyNDIyNDIxM1owMzExMC8GA1UEAx4oAE0AYQBoAGUAawBhAHIAdQAtAFAAQwBcAE0AYQBoAGUAawBhAHIAdTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtIYBChpEKuBxCMPRYsQivMSrQfTO2Bon8YNrHisHI6lPMcEspNxYSww2IX+dzU6qR179JUV5XbOmCLurgyo+YFfTeTXK/c9ehhryBtiK5kiwjyhf/6zoD1RBkpP1cuxSoNiMhM9fGlU1r3tnN6ky/ZRpFpJqr2Av9rtLD2OI/nkCAwEAATANBgkqhkiG9w0BAQUFAAOBgQChHIYXOU0dedwk7OolPHV2UWW8rSFRjhWkt5PsPgTGl83ipUnoadPSEW/XtgDtjufDBoJRmuhcSehueB5PrL+W+rbc0SaFb/6jtNxmlkWj4Lfx1GEgCfHs1owj4gJC2Njiv38gBcSwKlmFpxIFjt4CovxFJn5tgVWi8QIe/MQGjg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
